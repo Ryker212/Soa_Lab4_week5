@@ -8,9 +8,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.sql.rowset.serial.SerialException;
 
+
+
 public class HelloFirstServlet extends HttpServlet {
 	
-	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resq) throws SerialException,IOException {
 		PrintWriter out =resp.getWriter();
 		out.write("Servlet 3 web.xml example configuration");

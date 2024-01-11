@@ -12,7 +12,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>Customer-Servlet</servlet-name>
-		<servlet-class>th.ac.ku.kps.eng.cpe.controller.CustomerServlet</servlet-class>
+		<servlet-class>th.ac.ku.kps.eng.cpe.servlet.CustomerServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Customer-Servlet</servlet-name>
